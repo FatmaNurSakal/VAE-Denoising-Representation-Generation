@@ -183,15 +183,3 @@ Bu sonuçlar:
 - SupCon loss, latent uzayda sınıf ayrışmasını güçlendirmek için eklenmiştir.
 
 ---
-
-## 10) Lisans / Amaç
-
-Bu notebook akademik amaçla hazırlanmıştır ve final proje gereksinimleri kapsamında:
-- problem tanımı,
-- veri seti ve ön işleme,
-- model mimarisi ve gerekçesi,
-- nicel metrikler,
-- inference görselleri,
-- eğitim grafikleri
-
-çıktılarını uçtan uca üretir.
