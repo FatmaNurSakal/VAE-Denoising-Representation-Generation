@@ -182,23 +182,23 @@ Notebook, aşağıdaki dosyaları üretir:
 - `history.csv` (epoch bazlı eğitim geçmişi)
 - `metrics.csv` (MSE/PSNR/SSIM tablo)
 - `metrics.txt` (okunabilir metrik raporu)
-- === Denoising Metrics (Test) ===
-- NOISE_FACTOR=0.45
-- LATENT_DIM=16
-- BATCH_SIZE=256
-- EPOCHS=20
-- ===
-- Baseline (Noisy->Clean)  MSE=0.101500 | PSNR=9.945 dB | SSIM=0.2871
-- VAE (Recon->Clean)       MSE=0.018064 | PSNR=17.962 dB | SSIM=0.5950
-- === Improvement ===
-- MSE improvement: 82.20%
-- PSNR gain      : 8.017 dB
-- SSIM gain      : 0.3079
+  - === Denoising Metrics (Test) ===
+  - NOISE_FACTOR=0.45
+  - LATENT_DIM=16
+  - BATCH_SIZE=256
+  - EPOCHS=20
+  - ===
+  - Baseline (Noisy->Clean)  MSE=0.101500 | PSNR=9.945 dB | SSIM=0.2871
+  - VAE (Recon->Clean)       MSE=0.018064 | PSNR=17.962 dB | SSIM=0.5950
+  - === Improvement ===
+  - MSE improvement: 82.20%
+  - PSNR gain      : 8.017 dB
+  - SSIM gain      : 0.3079
 
 - `pca_explained_variance.txt` (PCA varyans oranları)
-- PCA Explained Variance Ratio (2 components)
-- [0.14242163 0.11660043]
-- Sum: 0.25902206
+  - PCA Explained Variance Ratio (2 components)
+  - [0.14242163 0.11660043]
+  - Sum: 0.25902206
 
 ---
 
