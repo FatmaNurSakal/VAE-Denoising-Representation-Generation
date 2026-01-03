@@ -127,6 +127,8 @@ Notebook, aşağıdaki dosyaları üretir:
 
 ### Eğitim eğrileri
 - `01_train_total_loss.png`
+- <img width="1236" height="785" alt="01_train_total_loss (1)" src="https://github.com/user-attachments/assets/7d662713-236c-43a9-ba6e-fb6fa7cb8cd2" />
+
 - `02_train_recon_loss.png`
 - `03_train_kl_loss.png`
 - `03B_train_supcon_loss.png`
