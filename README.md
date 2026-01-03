@@ -130,34 +130,75 @@ Notebook, aşağıdaki dosyaları üretir:
 <img width="1236" height="785" alt="01_train_total_loss (1)" src="https://github.com/user-attachments/assets/7d662713-236c-43a9-ba6e-fb6fa7cb8cd2" />
 
 - `02_train_recon_loss.png`
+<img width="1236" height="785" alt="02_train_recon_loss (1)" src="https://github.com/user-attachments/assets/e701dddb-2206-436e-b265-979c19c63370" />
+
 - `03_train_kl_loss.png`
+<img width="1219" height="785" alt="03_train_kl_loss (1)" src="https://github.com/user-attachments/assets/0ecaaf16-02ce-4320-90b3-82db3bf69919" />
+
 - `03B_train_supcon_loss.png`
+<img width="1245" height="785" alt="03B_train_supcon_loss" src="https://github.com/user-attachments/assets/f0f62a47-5114-4469-b58b-9197113c7f50" />
+
 - `04_beta_warmup.png`
+<img width="1227" height="708" alt="04_beta_warmup (1)" src="https://github.com/user-attachments/assets/60be0ad6-1a8b-4b87-9ad0-1984c2b75abc" />
 
 ### Denoising görseli
 - `05_denoising_grid.png`
+<img width="3469" height="1030" alt="05_denoising_grid (1)" src="https://github.com/user-attachments/assets/b2914173-a9da-463b-a81b-4d8d801efb06" />
 
 ### Latent analiz görselleri
 - `06A_latent_pca_numbers.png`
+<img width="1416" height="1247" alt="06A_latent_pca_numbers (1)" src="https://github.com/user-attachments/assets/ad4609ab-f745-4ffe-93c3-9f139159f4e3" />
+
 - `06B_latent_pca_text_tr.png`
+<img width="1640" height="1247" alt="06B_latent_pca_text_tr (1)" src="https://github.com/user-attachments/assets/9a0abe33-f4ec-464b-ba91-28ca3ef888ed" />
+
 - `06C_latent_umap_text_tr.png`
+<img width="1635" height="1247" alt="06C_latent_umap_text_tr" src="https://github.com/user-attachments/assets/832e014e-db05-4dcb-a82b-8d61e1ec9e21" />
+
 - `06D_latent_tsne_text_tr.png`
 
 ### Generation / Interpolation
 - `07_generated_prior.png`
+<img width="2354" height="744" alt="07_generated_prior (1)" src="https://github.com/user-attachments/assets/c304d20c-06ca-47fc-b48f-cbf7d24db8ea" />
+
 - `08_latent_interpolation.png`
+<img width="2859" height="397" alt="08_latent_interpolation (1)" src="https://github.com/user-attachments/assets/a640ffd7-a38e-49dc-abaa-dfdfc3540a89" />
 
 ### Bölüm başlık panelleri (sunum için)
 - `A_title_denoising.png`
+<img width="1700" height="850" alt="A_title_denoising (1)" src="https://github.com/user-attachments/assets/e87e7d6c-edfd-4890-aada-6a50eabad9d6" />
+
 - `B_title_representation_learning.png`
+<img width="1194" height="1185" alt="B_title_representation_learning (1)" src="https://github.com/user-attachments/assets/efc9445b-0376-455d-a66c-5c37996275e1" />
+
 - `C_title_generation.png`
+<img width="2506" height="556" alt="C_title_generation (1)" src="https://github.com/user-attachments/assets/6c78fac9-6fbe-41d1-bfeb-b20532620e03" />
+
 - `D_title_interpolation.png`
+<img width="2579" height="448" alt="D_title_interpolation (1)" src="https://github.com/user-attachments/assets/5f20d868-cd14-4de8-b20c-f920f7fd00ab" />
+
 
 ### Log / rapor dosyaları
 - `history.csv` (epoch bazlı eğitim geçmişi)
 - `metrics.csv` (MSE/PSNR/SSIM tablo)
 - `metrics.txt` (okunabilir metrik raporu)
+=== Denoising Metrics (Test) ===
+NOISE_FACTOR=0.45
+LATENT_DIM=16
+BATCH_SIZE=256
+EPOCHS=20
+===
+Baseline (Noisy->Clean)  MSE=0.101500 | PSNR=9.945 dB | SSIM=0.2871
+VAE (Recon->Clean)       MSE=0.018064 | PSNR=17.962 dB | SSIM=0.5950
+=== Improvement ===
+MSE improvement: 82.20%
+PSNR gain      : 8.017 dB
+SSIM gain      : 0.3079
+
 - `pca_explained_variance.txt` (PCA varyans oranları)
+PCA Explained Variance Ratio (2 components)
+[0.14242163 0.11660043]
+Sum: 0.25902206
 
 ---
 
