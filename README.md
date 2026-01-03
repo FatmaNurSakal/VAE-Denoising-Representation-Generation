@@ -1,5 +1,3 @@
-# VAE-Denoising-Representation-Generation
-
 # VAE Denoising + Representation Learning + Generation (Fashion-MNIST) — Kaggle Notebook
 Variational Auto-Encoder (VAE) ile Denoising ve Representation Generation.
 
